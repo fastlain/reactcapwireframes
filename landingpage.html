@@ -8,6 +8,7 @@
     <meta description="">
     <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css"/>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="landingpage.css">
 </head>
 
 <body>
@@ -16,34 +17,34 @@
         <p>This is the application's tagline</p>
     </header>
     <main role="main">
-    <section class="userForms" role="region">
-        <form>
+    <section class="landingForms" role="region">
+        <form class="userForm">
             <fieldset>
                 <legend>Log In</legend>
                 <div class="inputWrapper">
-                    <label for="username">username: </label>
+                    <label class="blockLabel" for="username">username: </label>
                     <input name="username" type="text">
                 </div>
                 <div class="inputWrapper">
-                    <label for="password">password: </label>
+                    <label class="blockLabel" for="password">password: </label>
                     <input name="password" type="password">
                 </div>
                 <button type="submit">Log In</button>
             </fieldset>
         </form>
-        <form>
+        <form class="userForm">
             <fieldset>
                 <legend>Create a New Account</legend>
                     <div class="inputWrapper">
-                        <label for="username">username: </label>
+                        <label class="blockLabel" for="username">username: </label>
                         <input name="username" type="text">
                     </div>
                     <div class="inputWrapper">
-                        <label for="password">password: </label>
+                        <label class="blockLabel" for="password">password: </label>
                         <input name="password" type="password">
                     </div>
                     <div class="inputWrapper">
-                        <label for="re-password">re-enter password: </label>
+                        <label class="blockLabel" for="re-password">re-enter password: </label>
                         <input name="re-password" type="password">
                     </div>
                     <button type="submit">Create Account</button>
@@ -71,7 +72,7 @@
             
     </section>
     </main>
-    <footer role="contentinfo">
+    <footer class="landingFooter" role="contentinfo">
         <p class="footerText">Created by Michael Allain</p>
     </footer>
 </body>
