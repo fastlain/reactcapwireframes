@@ -29,3 +29,25 @@ li {
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
+
+textarea {
+    width: 100%;
+}
+
+.topBar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 5px 10px;
+    background: lightgrey;
+}
+
+.pageTitle {
+    margin: 10px auto;
+}
+
+.appFooter {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
