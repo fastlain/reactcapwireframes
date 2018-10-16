@@ -1,0 +1,41 @@
+.topBar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 5px 10px;
+    background: lightgrey;
+}
+
+.pageTitle {
+    margin: 10px auto;
+}
+
+.notificationList {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.mainButtons {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.reviewFeedback {
+    padding: 10px 0; 
+    background: lightgrey;
+}
+
+.projectList {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.projectButton {
+    margin: 5px 0;
+}
+
+.appFooter {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
