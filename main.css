@@ -1,0 +1,50 @@
+/***** Border-box *****/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+label {
+    display: block;
+}
+
+form {
+    margin: 5px auto 20px;
+    max-width: 300px;
+}
+
+.banner {
+    text-align: center;
+    background: lightgrey;
+    padding: 50px;
+}
+
+.inputWrapper {
+    margin: 0 0 10px;
+}
+
+.feature {
+    text-align: center;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 400px;
+    background: lightblue;
+    padding: 10px;
+}
+
+footer {
+    margin: 0;
+    background: lightgrey;
+    text-align: center;
+    height: 40px;
+}
+
+.footerText {
+    padding: 10px;
+}
