@@ -1,0 +1,57 @@
+.projectList {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.projectButton {
+    margin: 5px 0;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 5fr 1fr 1.5fr;
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    border: 2px solid black
+}
+
+.formName {
+    grid-column-start: 1;
+}
+
+.received {
+    grid-column-start: 2;
+}
+
+.requested {
+    grid-column-start: 3;
+}
+
+.heading {
+    background: lightgray;
+    border: 2px solid black;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.gridItem {
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.gridItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.requestButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+.gridItem button {
+    margin: 0 10px;
+}
