@@ -55,3 +55,8 @@ fieldset {
     bottom: 0;
     width: 100%;
 }
+
+.centerButton {
+    display: block;
+    margin: 0 auto;
+}

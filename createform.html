@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Form</title>
+    <meta description="">
+    <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css"/>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="createform.css">
+</head>
+
+<body>
+    <header role="banner">
+        <div class="topBar">
+            <strong>App Title</strong>
+            <div class="rightGroup">
+                <em>username</em>
+                <button type="button">Log Out</button>
+            </div>
+        </div>
+        <h1 class="pageTitle">Create a Feedback Form</h1>
+    </header>
+    <main role="main">
+        <section class="createInstructions" role="region">
+            <h2>Instructions</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.</p>
+        </section>
+        
+        <form class="createForm">
+            <label for="formName">Form Name: </label>
+            <input id="formName" name="formName" type="text">
+
+            <label for="projectUrl">Project URL: </label>
+            <input id="projectUrl" name="projectUrl" type="text">
+
+            <fieldset>
+                <legend>Question 1:</legend>
+                <label for="question1">
+                    Write your question here:
+                </label>
+                <textarea id="question1" name="question1" rows=4></textarea>
+                <button class="rightButton" type="button">Delete Question</button>
+            </fieldset>
+
+            <fieldset>
+                <legend>Question 2:</legend>
+                <label for="question2">
+                    Write your question here:
+                </label>
+                <textarea id="question2" name="question2" rows=4></textarea>
+                <input id="multipleAns" name="multipleAns" type="checkbox" checked>
+                <label for="multipleAns">Allow multiple selections?</label>
+                <button class="rightButton" type="button">Delete Question</button>
+            </fieldset>
+
+            <fieldset>
+                <legend>Question 3:</legend>
+                <label for="question3">
+                    Write your question here:
+                </label>
+                <textarea id="question3" name="question3" rows=4></textarea>
+                
+                <label>Answer Choices:</label>
+                <div class="inputGroup">
+                    <label for="q3a1">A: </label>
+                    <input id="q3a1" name="q3a1" type="text">
+                    <button type="button">X</button>
+                </div>
+                <div class="inputGroup">
+                    <label for="q3a2">B: </label>
+                    <input id="q3a2" name="q3a2" type="text">
+                    <button type="button">X</button>
+                </div>
+                <div class="inputGroup">
+                    <label for="q3a3">C: </label>
+                    <input id="q3a3" name="q3a3" type="text">
+                    <button type="button">X</button>
+                </div>
+                <div class="inputGroup">
+                    <label for="q3a4">D: </label>
+                    <input id="q3a4" name="q3a4" type="text">
+                    <button type="button">X</button>
+                </div>
+
+                <button class="centerButton" type="button">+ Add answer</button>
+
+                <input id="multipleAns" name="multipleAns" type="checkbox" checked>
+                <label for="multipleAns">Allow multiple selections?</label>
+                <button class="rightButton" type="button">Delete Question</button>
+            </fieldset>
+
+            <h3>Add new question:</h3>
+            <div class="questionTypes">
+                <button type="button">+ Short Answer</button>
+                <button type="button">+ Multiple Choice</button>
+            </div>
+
+            <button class="centerButton" type="submit">Save Form</button>
+        </form>
+    </main>
+    <footer role="contentinfo">
+        <p>Created by Michael Allain</p>
+    </footer>
+</body>
+
+</html>
