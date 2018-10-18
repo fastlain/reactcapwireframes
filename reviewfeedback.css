@@ -12,12 +12,8 @@
     margin: 5px 0;
 }
 
-
-
-
 .gridContainer {
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr; */
     width: 90%;
     max-width: 600px;
     margin: 0 auto 20px;
@@ -48,13 +44,6 @@
     text-align: center;
     padding: 5px 0;
 }
-
-/* .gridItem {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
 
 .gridItem button {
     margin: 0 10px;
