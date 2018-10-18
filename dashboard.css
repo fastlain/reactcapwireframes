@@ -1,18 +1,157 @@
+/***** Notifications *****/
 
 .notificationList {
     margin: 10px auto;
     text-align: center;
 }
 
-.mainButtons {
+/***** Credits / Give Feedback *****/
+
+.giveFeedback {
     text-align: center;
-    margin: 10px 0;
+    padding: 10px 0;
+    background: lightgrey;
 }
 
-.reviewFeedback {
-    padding: 10px 0; 
+.credits {
+    background: yellow;
+    padding: 5px;
 }
 
+/***** My Feedback *****/
+
+.feedbackInstructions {
+    text-align: center;
+}
+
+.formContainer {
+    background: lightblue;
+    margin: 5px auto;
+    width: 90%;
+    padding: 10px 5px;
+}
+
+.formNameWrapper {
+    text-align: center;
+}
+
+.formName {
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.requestHeading {
+    margin: 5px auto;
+}
+
+.requestWrapper {
+    padding: 10px 0;
+    margin: 5px 0;
+    background: lightsalmon;
+}
+
+.requestInfo {
+    text-align: center;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.pendingRequests {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.greenBackground {
+    background: lightgreen;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.requestButtons {
+    padding: 5px; 
+}
+
+.or {
+    text-align: center;
+}
+
+.shareLinkWrapper {
+    text-align: center;
+    background: lightgreen;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.newFormBtn {
+    margin: 30px auto;
+}
+
+/***** In-App/External Version *****/
+
+
+/* .formContainer {
+    background: lightblue;
+    margin: 5px auto;
+    width: 90%;
+    padding: 10px 5px;
+}
+
+.formNameWrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.formName {
+    display: inline-block;
+    margin: 5px 10px 5px 0;
+}
+
+.formNameBtn {
+    height: 20px;
+    margin: 0 5px;
+}
+
+.feedbackWrapper {
+    background: lightsalmon;
+    padding: 10px;
+    margin: 5px 0;
+}
+.feedbackHeading {
+    text-align: left;
+    padding-left: 20px;
+    margin: 10px auto;
+    display: inline-block;
+}
+
+.extFeedbackWrapper {
+    padding-left: 30px;
+}
+
+.requestButtons {
+    padding: 5px; 
+}
+
+.requested {
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.received {
+    padding-left: 30px;
+} */
+
+/***** Grid Version *****/
+
+
+/* 
 .projectList {
     margin: 10px auto;
     text-align: center;
@@ -22,14 +161,52 @@
     margin: 5px 0;
 }
 
-.giveFeedback {
-    text-align: center;
-    margin-bottom: 20px;
-    padding: 10px 0;
-    background: lightgrey;
+
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 5fr 1fr 1.5fr;
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    border: 2px solid black
 }
 
-.credits {
-    background: yellow;
-    padding: 5px;
+.formName {
+    grid-column-start: 1;
 }
+
+.received {
+    grid-column-start: 2;
+}
+
+.requested {
+    grid-column-start: 3;
+}
+
+.heading {
+    background: lightgray;
+    border: 2px solid black;
+    margin: 0;
+    padding: 10px 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.gridItem {
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.requestButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+.gridItem button {
+    margin: 0 10px;
+} */
